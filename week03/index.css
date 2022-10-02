@@ -1,0 +1,27 @@
+body {
+    background-image: url("wall.jpg");
+ background-color: #cccccc;
+ background-size: cover;
+ background-repeat: no-repeat;
+  
+  }
+  h1 {
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+  }
+  p {
+    color: white;
+  }
+
+  img {
+    width: 20%; 
+    margin: auto;
+    display: block;
+  }
+
+  div {
+    display: flex;
+    justify-content: center;
+  }
