@@ -1,15 +1,108 @@
-.header {
-
-    display: flex; 
-    color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
-    padding: 20px;
-    justify-content: center;
+* {
     margin: 0;
+  }
+
+.header {
+    display: flex; 
+    color: rgb(68, 59, 51);
+    background-color: rgba(255, 255, 255, 0.921);
+    padding: 20px;
+    font-size: 10px;
+    justify-content: left;
+    margin: 0;
+    position: fixed;
+    width: 100%;
+
+}
+
+main {
+  padding-top: 62px;
 }
 
 body {
-    font-family:Arial, Helvetica, sans-serif;
-    background-color: black;
-    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgba(255, 255, 255, 0.245);
+    color: black;
+  }
+
+  .desk {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    border:rgb(0, 0, 0);
+   
+    
+}
+
+img {
+    max-width: 100%;
+}
+
+.smallbox {
+  display: flex;
+  padding: 100px;
+  padding-bottom: 20px;
+  padding-left: 250px;
+  background-color: rgb(59, 4, 1);
+  font-size: 100px;
+  color: white;
+  
+ 
+}
+
+.quote {
+  display: flex;
+  justify-content: right;
+padding-right: 250px;
+  background-color: rgba(59, 4, 1);
+  font-size: 20px;
+  color: white;
+  padding-bottom: 100px;
+}
+
+.frame {
+  position: relative;
+  max-width: 150px;
+  transform: translate(200px, 150px)
+}
+
+.journal {
+  position: relative;
+  max-width: 320px;
+  transform: translate(500px, -145px)
+}
+
+.frame:hover {
+  opacity: 0;
+}
+
+.journal:hover {
+  opacity: 0;
+  transition: width 2s;
+}
+
+
+
+.frametext {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  padding-bottom: 0;
+  padding-top: 50px;
+  font-size: 30px;
+  color: rgb(68, 59, 51);
+}
+
+.journaltext {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  padding-bottom: 0;
+  font-size: 30px;
+  color: rgb(68, 59, 51);
+
+}
+.frametext:hover {
+  opacity: 1;
+
 }
