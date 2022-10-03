@@ -12,7 +12,6 @@
     margin: 0;
     position: fixed;
     width: 100%;
-
 }
 
 main {
@@ -31,7 +30,6 @@ body {
     justify-content: center;
     border:rgb(0, 0, 0);
    
-    
 }
 
 img {
@@ -47,7 +45,6 @@ img {
   font-size: 100px;
   color: white;
   
- 
 }
 
 .quote {
@@ -81,8 +78,6 @@ padding-right: 250px;
   transition: width 2s;
 }
 
-
-
 .frametext {
   display: flex;
   justify-content: center;
@@ -104,5 +99,4 @@ padding-right: 250px;
 }
 .frametext:hover {
   opacity: 1;
-
 }
