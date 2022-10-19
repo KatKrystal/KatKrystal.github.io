@@ -33,7 +33,7 @@ a:hover, a:active {
   }
 
   img {
-    max-width: 900px;
+    width: 100%;
   
   }
 
@@ -52,25 +52,20 @@ a:hover, a:active {
     padding-bottom: 0px;
   }
 
-/* this is also not my code because i still want a cool drop down menu thingy*/
-
-/* Dropdown Button */
+/* this is not my code because i want a cool drop down menu thingy*/
 .dropbtn {
-
   background-color: #000000;
   padding: 16px;
   font-size: 16px;
   border: none;
 }
 
-/* The container <div> - needed to position the dropdown content */
 .dropdown {
   
   position: relative;
   display: inline-block;
 }
 
-/* Dropdown Content (Hidden by Default) */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -80,7 +75,6 @@ a:hover, a:active {
   z-index: 1;
 }
 
-/* Links inside the dropdown */
 .dropdown-content a {
   color: rgb(255, 255, 255);
   padding: 12px 16px;
@@ -88,11 +82,9 @@ a:hover, a:active {
   display: block;
 }
 
-/* Change color of dropdown links on hover */
 .dropdown-content a:hover {background-color: rgb(255, 102, 0);}
 
-/* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: rgb(255, 102, 0);}
+ /* end of not my code*/
