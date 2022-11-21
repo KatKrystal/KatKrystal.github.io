@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: rgb(199, 120, 55);
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.face-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 120pt;
+}
+.face {
+  position: absolute;
+  width: 40vw;
+  height: 40vh;
+}
+
+.eye-container {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  top:12vw;
+  left:42%;
+}
+
+.eye {
+  width: 5vw;
+  height: 5vw;
+  background-color: #ffffff;
+  border-radius: 50%;
+  z-index:5;
+  margin: 2vw;
+}
+.eyeball {
+  height: 2vw;
+  width: 2vw;
+  background: radial-gradient(#271e1e 35%, #442810 37%);
+  border-radius: 50%;
+  margin: 0.5vw 2.1vh;
+  position: relative;
+  z-index:2;
+}
+
+p{
+  font-size: 1.3em;
+}
+.gracias {
+  position: fixed;
+  padding: 18px;
+  bottom: 0;
+  width: 100%;
+  height: 10px;
+  background-color: rgba(255, 0, 0, 0.215);
+ z-index:5;
+}
+
+.medium-container {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: nowrap;
+  z-index: 5;
+  justify-content: space-evenly;
+  padding: 5px;
+  align-items: center;
+  top:70vh;
+}
+
+.tv, .phone, .tablet, .desktop, .radio {
+  height: 30vw;
+  width: 30vw;
+}
+
+#tv, #radio {
+  margin-top: -80px;
+}
+
+#phone, #desktop {
+  margin-top: -20px;
+}
